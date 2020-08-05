@@ -1,0 +1,65 @@
+intents:
+  - selam
+  - goodbye
+  - affirm
+  - deny
+  - mood_iyi
+  - mood_kotu
+  - bot_challenge
+  - yemek_karti
+  - kart_varmi_olumlu
+  - kart_varmi_olumsuz
+  - adobe_illustrator
+  - team_center
+  - sifre_sorun
+  - calismayan_bilgisayar
+  - yetki_talep
+
+responses:
+  utter_selam:
+  - text: "Selam, nasılsın?"
+
+
+  utter_kart_varmi:
+  - text: "Yemek kartınızı aldınız mı?"  
+
+  utter_kart_almalisin:
+  - text: "Kartınızı Yekta Beyden alabilirsiniz. Odası E Blok 14. Katta." 
+  
+  utter_yemek_karti_bilgisi:
+  - text: "Yemek kartınızı anlaşmalı yerlerimizden cihaza okutarak kullanabilirsiniz. Ayrıca bakiyesini öğrenmek için 1. kattaki cihaza okutup öğrenebilirsiniz."
+
+  utter_cheer_up:
+  - text: "Üzgün olmanız beni de üzer :( Şu fotoğrafa bi bak istersen"
+    image: "https://i.pinimg.com/originals/48/d9/63/48d963fb19a5814b5c47d00feee6d638.jpg"
+
+  utter_did_that_help:
+  - text: "Bu yardımcı oldu mu?"
+
+  utter_happy:
+  - text: "Ne kadar güzel, yardımcı olabileceğim bir konu var mı?"
+
+  utter_goodbye:
+  - text: "Görüşmek üzere!"
+
+  utter_iamabot:
+  - text: "Ben Ar-Gel ekibi tarafından yapılmış sevimli bir botum."
+
+  utter_yetki_talep:
+  - text: "Asset yetki talepleri için Bilgi Teknolojileri ile irtibata geçebilirsiniz. Yardımcı olabileceğim başka bir şey var mı?"
+
+  utter_calismayan_bilgisayar:
+    - text: "Bilgisayarınızla ilgili sorunlar için şurdaki numaradan canlı destek alabilirsiniz: 444 0 888 . Başka bir şey?"
+  
+  utter_sifre_sorun:
+    - text: "Eğer şifrenizi unuttuysanız, sistemde kayıtlı numaranız üzerinden yenileyebilirsiniz. Eğer sistemde henüz kayıtlı değilseniz, kimlik doğrulaması için ofise gelmeniz gerekmektedir."
+
+  utter_team_center:
+    - text: "Setup dosyasıyla beraber gelen kurulum dosyasındaki adımları birebir uygulayarak tekrar yüklemeyi deneyiniz. Sorunun çözülememesi durumunda aşağıdaki numaradan canlı destek alabilirsiniz: 444 0 888"
+
+  utter_adobe_illustrator:
+    - text: "Yandaki numarayı arayıp randevu alarak uzaktan yardım alabilirsiniz. 444 0 888.  Destek hattımız bilgisayarınıza uzaktan erişerek kurulumunuzu tamamlayacaktır. İyi çalışmalar."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
